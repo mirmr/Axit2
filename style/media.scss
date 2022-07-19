@@ -1,0 +1,98 @@
+.media__section {
+    background-color: #F8EFEF;
+    padding: 18px 20px;
+}
+
+.media__container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.media__social {
+    max-width: 470px;
+}
+
+.media__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    margin-bottom: 18px;
+}
+
+.media__subtitle {
+    color: #86878B;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.media__list {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list__item {
+    height: 100%;
+    width: 100%;
+    margin-right: 45px;
+}
+
+.list__link--facebook {
+    background-image: url(../assets/svg/facebook.svg);
+}
+
+.list__link--twitter {
+    background-image: url(../assets/svg/twitter.svg);
+}
+
+.list__link--linkedin {
+    background-image: url(../assets/svg/linkedin.svg);
+}
+
+.list__link--pinterest {
+    background-image: url(../assets/svg/pinterest.svg);
+}
+
+.list__link--instagram {
+    background-image: url(../assets/svg/instagram.svg);
+}
+
+.list__link--github {
+    background-image: url(../assets/svg/git.svg);
+}
+
+.list__link--vector {
+    background-image: url(../assets/svg/vector.svg);
+}
+
+.list__item:last-of-type {
+    margin: 0;
+}
+
+.list__link {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s linear;
+}
+
+.list__link:hover {
+    background-color: #EC7979;
+}
+
+.list__link:focus {
+    background-color: rgb(230, 139, 109);
+}

@@ -1,0 +1,89 @@
+.foot {
+    background-color: #000000;
+}
+
+.foot__container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 40px 20px 27px;
+    height: 164px;
+}
+
+.foot__title {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.foot__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list__item {
+    height: 100%;
+    width: 100%;
+    margin-right: 45px;
+}
+
+.list__link--facebook {
+    background-image: url(../assets/svg/facebook.svg);
+}
+
+.list__link--twitter {
+    background-image: url(../assets/svg/twitter.svg);
+}
+
+.list__link--linkedin {
+    background-image: url(../assets/svg/linkedin.svg);
+}
+
+.list__link--pinterest {
+    background-image: url(../assets/svg/pinterest.svg);
+}
+
+.list__link--instagram {
+    background-image: url(../assets/svg/instagram.svg);
+}
+
+.list__link--github {
+    background-image: url(../assets/svg/git.svg);
+}
+
+.list__link--vector {
+    background-image: url(../assets/svg/vector.svg);
+}
+
+.list__item:last-of-type {
+    margin: 0;
+}
+
+.list__link {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s linear;
+}
+
+.list__link:hover {
+    background-color: #EC7979;
+}
+
+.list__link:focus {
+    background-color: rgb(230, 139, 109);
+}

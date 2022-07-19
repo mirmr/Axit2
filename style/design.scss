@@ -1,0 +1,87 @@
+.design__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 442px;
+    padding: 104px 20px 50px;
+}
+
+.design__container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    align-content: center;
+}
+
+.design__title {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 94px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 1170px;
+    width: 100%;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.design__title::before {
+    content: '';
+    border-bottom: 1px solid #FFFFFF;
+    width: 170px;
+    position: absolute;
+    top: calc(100% + 54px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.design__subtitle {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: auto auto 73px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.button--download {
+    margin: 0 auto;
+    max-width: 370px;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+    transition: .4s ease-out;
+}
+
+.button--download:hover {
+    background-color: #EC7979;
+}
+
+.button__link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 2s ease;
+    padding: 17px;
+}
+
+.button__link:hover {
+    color: darkred;
+    outline: none;
+}
+
+.button__link:focus {
+    color: crimson;
+    outline: none;
+}

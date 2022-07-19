@@ -1,0 +1,107 @@
+.options__section {
+    background-color: #F5F5F5;
+}
+
+.options__container {
+    margin: 0 auto;
+    padding: 110px 20px 60px;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.options__title {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 97px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 1170px;
+    width: 100%;
+    position: relative;
+    color: #000000;
+}
+
+.options__title::before {
+    content: '';
+    border-bottom: 1px solid #EC7979;
+    width: 170px;
+    position: absolute;
+    top: calc(100% + 54px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.options__subtitle {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: auto auto 79px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.options__price {
+    display: flex;
+    position: relative;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.price__item {
+    width: calc((100% - 30px - 30px)/3);
+    position: relative;
+    bottom: 0px;
+    transition: .3s linear;
+    text-align: center;
+}
+
+.price__item:hover {
+    transform: scale(1.06);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.price__name {
+    background: #333333;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    padding: 18px 0;
+    border: 2px solid #F5F5F5;
+}
+
+.price__cost {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    padding: 32px 0;
+}
+
+.price__message {
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    padding: 15px 0;
+}
+
+.price__space {
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-transform: capitalize;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    padding: 15px 0;
+}
